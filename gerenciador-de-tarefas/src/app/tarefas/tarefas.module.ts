@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CadastrarComponent } from './cadastrar';
 import { EditarComponent } from './editar';
+import { TarefaConcluidaDirective } from './shared/tarefa-concluida.directive';
 
 
 
@@ -13,7 +14,8 @@ import { EditarComponent } from './editar';
   declarations: [
     ListarComponent,
     CadastrarComponent,
-    EditarComponent
+    EditarComponent,
+    TarefaConcluidaDirective
   ],
   imports: [
     CommonModule,
